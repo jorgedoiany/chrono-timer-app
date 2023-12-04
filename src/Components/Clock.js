@@ -8,24 +8,21 @@ const Clock = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
           <div className="clock">
             <section>
               <p>{timerDays}</p>
-              <small>Days</small>
+              <small>DAYS</small>
             </section>
-            <span>:</span>
             <section>
               <p>{timerHours}</p>
-              <small>Hours</small>
+              <small>HOURS</small>
             </section>
             {""}
-            <span>:</span>
             <section>
               <p>{timerMinutes}</p>
-              <small>Minutes</small>
+              <small>MINUTES</small>
             </section>
             {""}
-            <span>:</span>
             <section>
               <p>{timerSeconds}</p>
-              <small>Seconds</small>
+              <small>SECONDS</small>
             </section>
           </div>
         </section>

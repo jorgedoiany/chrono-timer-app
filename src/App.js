@@ -11,7 +11,7 @@ function App() {
   let interval;
 
   const startTimer = () => {
-    const countDownDate = new Date("Dec 01, 2023").getTime();
+    const countDownDate = new Date("Dec 02, 2023").getTime();
     interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = countDownDate - now;
